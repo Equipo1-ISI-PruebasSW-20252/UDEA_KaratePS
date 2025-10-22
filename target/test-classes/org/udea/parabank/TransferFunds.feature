@@ -16,3 +16,4 @@ Feature: Transfer funds in Parabank
         And param amount = val_amount
         When method post
         Then status 200
+        And match response == "Successfully transferred $${val_amount} from account #${val_fromAccountId} to account #${val_toAccountId}"
