@@ -1,0 +1,115 @@
+22:21:38.727 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
+22:21:39.085 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:21:39.304 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:21:41.813 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:41.876 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:45.211 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
+22:21:45.252 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:21:45.273 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:21:45.330 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:45.375 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:47.083 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
+22:21:47.109 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:21:47.131 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:21:47.308 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:47.378 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:48.166 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
+22:21:48.177 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:21:48.184 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:21:48.212 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:48.246 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:49.528 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
+22:21:49.571 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:21:49.588 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:21:49.647 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7
+22:21:49.708 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
+* def amount = fakerObj.number().numberBetween(1, 5000)
+js failed:
+>>>>
+01: fakerObj.number().numberBetween(1, 5000)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:org/udea/parabank/LoanSimulation.feature:7

@@ -7,8 +7,8 @@ Feature: Login to Parabank
 
   Scenario: Customer Login
     Given path 'login'
-    And path 'john' //userName
-    And path 'demo' //password
+    And path 'vafeda' //userName
+    And path 'vafeda' //password
     When method GET
     Then status 200
     And match response ==
@@ -27,3 +27,13 @@ Feature: Login to Parabank
        "ssn": '#string'
     }
     """
+
+    Scenario: Failed Customer Login
+      Given def fakeUserName = 'invalidUser'
+      And def fakePassword = 'invalidPass'
+      And path 'login'
+      And path fakeUserName
+      And path fakePassword
+      When method GET
+      Then status 400
+      And match response == "Invalid username and/or password"

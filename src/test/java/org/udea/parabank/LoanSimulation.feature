@@ -13,36 +13,50 @@ Feature: Loan simulation in Parabank
 
   Scenario: Loan approval
     Given path 'requestLoan'
-    And request {
+    And request 
+    """
+    {
       "amount": #(amount),
       "fromAccountId": #(fromAccountId),
       "duration": #(loanDuration),
       "income": #(customerIncome),
       "creditHistory": #(customerCreditHistory)
     }
+    """
+
     When method POST
     Then status 200
-    And match response == {
+    And match response == 
+    """
+    {
       "responseDate": '#number',
       "loanProviderName": '#string',
       "approved": true,
       "accountId": '#number'
     }
+    """
 
   Scenario: Loan rejection
     Given path 'requestLoan'
-    And request {
+    And request 
+    """
+    {
       "amount": #(amount),
       "fromAccountId": #(fromAccountId),
       "duration": #(loanDuration),
       "income": #(customerLowIncome), // Low income for rejection
       "creditHistory": 'POOR' // Poor credit history for rejection
     }
+    """
+
     When method POST
     Then status 200
-    And match response == {
+    And match response == 
+    """
+    {
       "responseDate": '#number',
       "loanProviderName": '#string',
       "approved": false,
       "accountId": '#null'
     }
+    """
