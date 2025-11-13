@@ -4,26 +4,17 @@ Feature: Loan simulation in Parabank
   Background:
     * url baseUrl
     * header Accept = 'application/json'
+    * def fakerObj = new faker()
     * def amount = fakerObj.number().numberBetween(1, 5000)
-    * def fromAccountId = '12345'
+    * def amountRejected = -amount
+    * def fromAccountId = '14676'
     * def loanDuration = 12
-    * def customerIncome = 45000
-    * def customerLowIncome = 1000
-    * def customerCreditHistory = 'GOOD'
 
   Scenario: Loan approval
     Given path 'requestLoan'
-    And request 
-    """
-    {
-      "amount": #(amount),
-      "fromAccountId": #(fromAccountId),
-      "duration": #(loanDuration),
-      "income": #(customerIncome),
-      "creditHistory": #(customerCreditHistory)
-    }
-    """
-
+    And param amount = amount
+    And param fromAccountId = fromAccountId
+    And param loanDuration = loanDuration
     When method POST
     Then status 200
     And match response == 
@@ -32,23 +23,24 @@ Feature: Loan simulation in Parabank
       "responseDate": '#number',
       "loanProviderName": '#string',
       "approved": true,
-      "accountId": '#number'
+      "accountId": '#number',
+      "history": [
+        {
+          "date": '#string',
+          "amount": #(amount),
+          "type": "LOAN_DISBURSEMENT",
+          "description": "Loan disbursement for loan of amount $" + #(amount)
+        }
+      ],
+      "incomes": '#number'
     }
     """
 
   Scenario: Loan rejection
     Given path 'requestLoan'
-    And request 
-    """
-    {
-      "amount": #(amount),
-      "fromAccountId": #(fromAccountId),
-      "duration": #(loanDuration),
-      "income": #(customerLowIncome), // Low income for rejection
-      "creditHistory": 'POOR' // Poor credit history for rejection
-    }
-    """
-
+    And param amount = amountRejected
+    And param fromAccountId = fromAccountId
+    And param loanDuration = loanDuration
     When method POST
     Then status 200
     And match response == 
@@ -57,6 +49,15 @@ Feature: Loan simulation in Parabank
       "responseDate": '#number',
       "loanProviderName": '#string',
       "approved": false,
-      "accountId": '#null'
+      "accountId": '#number',
+      "history": [
+        {
+          "date": '#string',
+          "amount": #(amount),
+          "type": "LOAN_DISBURSEMENT",
+          "description": "Loan disbursement for loan of amount $" + #(amount)
+        }
+      ],
+      "incomes": '#number'
     }
     """

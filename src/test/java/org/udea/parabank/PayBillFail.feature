@@ -3,11 +3,11 @@ Feature: Bill Payment Failed due to insufficient funds
     Background:
         * url baseUrl
         * header Accept = 'application/json'
-        * def customerId = 20204
+        * def customerId = 13322
         * def fakerObj = new faker()
 
     Scenario: Paying a bill with an amount greater than the balance
-        # 1) obtener cuentas del cliente para conocer el saldo de una cuenta
+        # Obtener cuentas del cliente para conocer el saldo de una cuenta
         Given path 'customers/' + customerId + '/accounts'
         When method GET
         Then status 200
@@ -16,11 +16,11 @@ Feature: Bill Payment Failed due to insufficient funds
         * def fromAccountId = fromAccount.id
         * def balance = fromAccount.balance
 
-        # 2) construir un monto mayor que el saldo disponible
+        # Construir un monto mayor que el saldo disponible
         * def extra = fakerObj.number().numberBetween(1, 500)
         * def billAmount = balance + extra
 
-        # 3) intentar pagar la factura haciendo POST a /services/bank/billpay
+        # Intentar pagar la factura haciendo POST a /services/bank/billpay
         Given path 'billpay'
         And param accountId = fromAccountId
         And param amount = billAmount
@@ -40,3 +40,4 @@ Feature: Bill Payment Failed due to insufficient funds
         """
         When method post
         Then status 400
+        And match response == "Insufficient funds in account #" + fromAccountId + " to pay bill amount of $" + billAmount

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.udea.parabank.TestRunner" time="14.275" tests="10" errors="0" skipped="0" failures="10">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.udea.parabank.TestRunner" time="17.476" tests="9" errors="0" skipped="0" failures="3">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire445424540271154727\surefirebooter18103551014993584196.jar C:\Users\ASUS\AppData\Local\Temp\surefire445424540271154727 2025-11-11T22-21-33_252-jvmRun1 surefire8819930823718469744tmp surefire_04759174094328020909tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire3943855327323194703\surefirebooter8531560004590122866.jar C:\Users\ASUS\AppData\Local\Temp\surefire3943855327323194703 2025-11-12T21-13-53_523-jvmRun1 surefire9192867053092584940tmp surefire_010954293606357876071tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="TestRunner"/>
     <property name="surefire.test.class.path" value="C:\Users\ASUS\Desktop\Pruebas de software [Electiva LINEA ENFASÍS IN DE SOF Y SIS DE IN]\Entregas\Practica 5\UDEA_KaratePS\target\test-classes;C:\Users\ASUS\Desktop\Pruebas de software [Electiva LINEA ENFASÍS IN DE SOF Y SIS DE IN]\Entregas\Practica 5\UDEA_KaratePS\target\classes;C:\Users\ASUS\.m2\repository\com\intuit\karate\karate-core\1.3.1\karate-core-1.3.1.jar;C:\Users\ASUS\.m2\repository\org\graalvm\js\js-scriptengine\22.0.0.2\js-scriptengine-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\graalvm\sdk\graal-sdk\22.0.0.2\graal-sdk-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\graalvm\js\js\22.0.0.2\js-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\graalvm\regex\regex\22.0.0.2\regex-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\graalvm\truffle\truffle-api\22.0.0.2\truffle-api-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\ASUS\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\ASUS\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\ASUS\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\ASUS\.m2\repository\com\linecorp\armeria\armeria\1.18.0\armeria-1.18.0.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\ASUS\.m2\repository\io\micrometer\micrometer-core\1.9.2\micrometer-core-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\ASUS\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport\4.1.79.Final\netty-transport-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-common\4.1.79.Final\netty-common-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-buffer\4.1.79.Final\netty-buffer-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver\4.1.79.Final\netty-resolver-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-haproxy\4.1.79.Final\netty-codec-haproxy-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec\4.1.79.Final\netty-codec-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http2\4.1.79.Final\netty-codec-http2-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler\4.1.79.Final\netty-handler-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http\4.1.79.Final\netty-codec-http-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns\4.1.79.Final\netty-resolver-dns-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-dns\4.1.79.Final\netty-codec-dns-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.79.Final\netty-transport-native-unix-common-4.1.79.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.79.Final\netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.79.Final\netty-transport-native-unix-common-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.79.Final\netty-transport-classes-epoll-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.79.Final\netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.79.Final\netty-resolver-dns-classes-macos-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.79.Final\netty-resolver-dns-native-macos-4.1.79.Final-osx-aarch_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-classes\2.0.53.Final\netty-tcnative-classes-2.0.53.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-linux-aarch_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-osx-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-osx-aarch_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-windows-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler-proxy\4.1.79.Final\netty-handler-proxy-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-socks\4.1.79.Final\netty-codec-socks-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.7.1\brotli4j-1.7.1.jar;C:\Users\ASUS\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.7.1\native-windows-x86_64-1.7.1.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\ASUS\.m2\repository\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3.jar;C:\Users\ASUS\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\ASUS\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\ASUS\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\ASUS\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\ASUS\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\ASUS\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.32\snakeyaml-1.32.jar;C:\Users\ASUS\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\ASUS\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\ASUS\.m2\repository\io\github\classgraph\classgraph\4.8.149\classgraph-4.8.149.jar;C:\Users\ASUS\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\ASUS\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\ASUS\.m2\repository\com\intuit\karate\karate-junit5\1.3.1\karate-junit5-1.3.1.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\ASUS\.m2\repository\net\masterthought\cucumber-reporting\5.7.4\cucumber-reporting-5.7.4.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\ASUS\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ASUS\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ASUS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ASUS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ASUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ASUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ASUS\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\ASUS\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\ASUS\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ASUS\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ASUS\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ASUS\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ASUS\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
@@ -32,8 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="karate.options" value="classpath:org/udea/parabank/LoanSimulation.feature"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire445424540271154727\surefirebooter18103551014993584196.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire3943855327323194703\surefirebooter8531560004590122866.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -52,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ASUS\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\ASUS\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\ASUS\Downloads\apache-maven-3.9.10-bin\apache-maven-3.9.10\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\ASUS\AppData\Local\Programs\Python\Python312;C:\Users\ASUS\AppData\Local\Programs\Python\Launcher;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Microsoft\WinGet\Packages\DuckDB.cli_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\ASUS\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\ASUS\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\ASUS\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\opt\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\ASUS\Downloads\apache-maven-3.9.10-bin\apache-maven-3.9.10\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\ASUS\AppData\Local\Programs\Python\Python312;C:\Users\ASUS\AppData\Local\Programs\Python\Launcher;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;C:\Users\ASUS\AppData\Local\Microsoft\WinGet\Packages\DuckDB.cli_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\ASUS\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\ASUS\AppData\Roaming\npm;C:\Users\ASUS\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.12+8-LTS-286"/>
@@ -60,16 +59,11 @@
     <property name="java.class.version" value="61.0"/>
     <property name="maven.test.failure.ignore" value="true"/>
   </properties>
-  <testcase name="[1:14] Loan approval" classname="org/udea/parabank/LoanSimulation" time="2.441">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
+  <testcase name="[1:13] Loan approval" classname="org/udea/parabank/LoanSimulation" time="3.922">
+    <failure message="status code was: 400, expected: 200, response time in milliseconds: 908, url: https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amp;amount=3315&amp;fromAccountId=14676, response: &#10;Cannot invoke &quot;java.math.BigDecimal.compareTo(java.math.BigDecimal)&quot; because the return value of &quot;com.parasoft.parabank.domain.LoanRequest.getDownPayment()&quot; is null&#10;classpath:org/udea/parabank/LoanSimulation.feature:19" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 400, expected: 200, response time in milliseconds: 908, url: https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amount=3315&fromAccountId=14676, response: 
+Cannot invoke "java.math.BigDecimal.compareTo(java.math.BigDecimal)" because the return value of "com.parasoft.parabank.domain.LoanRequest.getDownPayment()" is null
+classpath:org/udea/parabank/LoanSimulation.feature:19
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
 	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
@@ -174,31 +168,41 @@ classpath:org/udea/parabank/LoanSimulation.feature:7
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-out><![CDATA[22:21:38.727 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
-22:21:39.085 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-22:21:39.304 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-22:21:41.813 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
+    <system-out><![CDATA[21:13:58.883 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+21:13:59.120 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:14:02.160 [main] DEBUG com.intuit.karate - request:
+1 > POST https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amount=3315&fromAccountId=14676
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
+
+21:14:03.076 [main] DEBUG com.intuit.karate - response time in milliseconds: 908
+1 < 400
+1 < Date: Thu, 13 Nov 2025 02:13:59 GMT
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Content-Length: 164
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac0c58ec9a51b-MIA
+Cannot invoke "java.math.BigDecimal.compareTo(java.math.BigDecimal)" because the return value of "com.parasoft.parabank.domain.LoanRequest.getDownPayment()" is null
+
+21:14:03.087 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:19
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 908, url: https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amount=3315&fromAccountId=14676, response: 
+Cannot invoke "java.math.BigDecimal.compareTo(java.math.BigDecimal)" because the return value of "com.parasoft.parabank.domain.LoanRequest.getDownPayment()" is null
+classpath:org/udea/parabank/LoanSimulation.feature:19
 ]]></system-out>
   </testcase>
-  <testcase name="[1:14] Loan approval" classname="org/udea/parabank/LoanSimulation" time="0.047">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
+  <testcase name="[2:39] Loan rejection" classname="org/udea/parabank/LoanSimulation" time="4.105">
+    <failure message="status code was: 400, expected: 200, response time in milliseconds: 366, url: https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amp;amount=-1856&amp;fromAccountId=14676, response: &#10;Cannot invoke &quot;java.math.BigDecimal.compareTo(java.math.BigDecimal)&quot; because the return value of &quot;com.parasoft.parabank.domain.LoanRequest.getDownPayment()&quot; is null&#10;classpath:org/udea/parabank/LoanSimulation.feature:45" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 400, expected: 200, response time in milliseconds: 366, url: https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amount=-1856&fromAccountId=14676, response: 
+Cannot invoke "java.math.BigDecimal.compareTo(java.math.BigDecimal)" because the return value of "com.parasoft.parabank.domain.LoanRequest.getDownPayment()" is null
+classpath:org/udea/parabank/LoanSimulation.feature:45
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
 	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
@@ -303,560 +307,50 @@ classpath:org/udea/parabank/LoanSimulation.feature:7
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-out><![CDATA[22:21:45.211 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
-22:21:45.252 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-22:21:45.273 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-22:21:45.330 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
+    <system-out><![CDATA[21:14:03.228 [main] DEBUG com.intuit.karate - request:
+1 > POST https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amount=-1856&fromAccountId=14676
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
-]]></system-out>
-  </testcase>
-  <testcase name="[1:14] Loan approval" classname="org/udea/parabank/LoanSimulation" time="0.186">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[22:21:47.083 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
-22:21:47.109 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-22:21:47.131 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-22:21:47.308 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
+21:14:03.594 [main] DEBUG com.intuit.karate - response time in milliseconds: 366
+1 < 400
+1 < Date: Thu, 13 Nov 2025 02:14:00 GMT
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Content-Length: 164
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac0ca3947a55a-MIA
+Cannot invoke "java.math.BigDecimal.compareTo(java.math.BigDecimal)" because the return value of "com.parasoft.parabank.domain.LoanRequest.getDownPayment()" is null
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
-]]></system-out>
-  </testcase>
-  <testcase name="[1:14] Loan approval" classname="org/udea/parabank/LoanSimulation" time="0.019">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[22:21:48.166 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
-22:21:48.177 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-22:21:48.184 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-22:21:48.212 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-]]></system-out>
-  </testcase>
-  <testcase name="[1:14] Loan approval" classname="org/udea/parabank/LoanSimulation" time="0.036">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[22:21:49.528 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/LoanSimulation.feature
-22:21:49.571 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-22:21:49.588 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-22:21:49.647 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-]]></system-out>
-  </testcase>
-  <testcase name="[2:39] Loan rejection" classname="org/udea/parabank/LoanSimulation" time="3.331">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[22:21:41.876 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
+21:14:03.600 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:45
+Then status 200
+status code was: 400, expected: 200, response time in milliseconds: 366, url: https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amount=-1856&fromAccountId=14676, response: 
+Cannot invoke "java.math.BigDecimal.compareTo(java.math.BigDecimal)" because the return value of "com.parasoft.parabank.domain.LoanRequest.getDownPayment()" is null
+classpath:org/udea/parabank/LoanSimulation.feature:45
 ---------------------------------------------------------
 feature: classpath:org/udea/parabank/LoanSimulation.feature
-scenarios:  2 | passed:  0 | failed:  2 | time: 0,0288
+scenarios:  2 | passed:  0 | failed:  2 | time: 2,1131
 ---------------------------------------------------------
 
 Karate version: 1.3.1 | env: prod
 ======================================================
-elapsed:   6,01 | threads:    1 | thread time: 0,03 
-features:     1 | skipped:    0 | efficiency: 0,00
+elapsed:   7,83 | threads:    1 | thread time: 2,11 
+features:     1 | skipped:    0 | efficiency: 0,27
 scenarios:    2 | passed:     0 | failed: 2
 ======================================================
 >>> failed features:
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
+status code was: 400, expected: 200, response time in milliseconds: 908, url: https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amount=3315&fromAccountId=14676, response: 
+Cannot invoke "java.math.BigDecimal.compareTo(java.math.BigDecimal)" because the return value of "com.parasoft.parabank.domain.LoanRequest.getDownPayment()" is null
+classpath:org/udea/parabank/LoanSimulation.feature:19
+status code was: 400, expected: 200, response time in milliseconds: 366, url: https://parabank.parasoft.com/parabank/services/bank/requestLoan?loanDuration=12&amount=-1856&fromAccountId=14676, response: 
+Cannot invoke "java.math.BigDecimal.compareTo(java.math.BigDecimal)" because the return value of "com.parasoft.parabank.domain.LoanRequest.getDownPayment()" is null
+classpath:org/udea/parabank/LoanSimulation.feature:45
 <<<
 
 HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
@@ -865,16 +359,77 @@ file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20EN
 
 ]]></system-out>
   </testcase>
-  <testcase name="[2:39] Loan rejection" classname="org/udea/parabank/LoanSimulation" time="1.727">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
+  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.578">
+    <system-out><![CDATA[21:14:07.248 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+21:14:07.258 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:14:07.300 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13322/accounts
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
+
+21:14:07.796 [main] DEBUG com.intuit.karate - response time in milliseconds: 495
+1 < 200
+1 < Date: Thu, 13 Nov 2025 02:14:04 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac0e3ab165154-MIA
+[{"id":14676,"customerId":13322,"type":"CHECKING","balance":9729.50},{"id":14787,"customerId":13322,"type":"CHECKING","balance":-471.00},{"id":14898,"customerId":13322,"type":"SAVINGS","balance":486.00},{"id":16008,"customerId":13322,"type":"LOAN","balance":-50.00},{"id":16119,"customerId":13322,"type":"LOAN","balance":150.00},{"id":16230,"customerId":13322,"type":"LOAN","balance":1000.00}]
+
+]]></system-out>
+  </testcase>
+  <testcase name="[2:55] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="1.498">
+    <system-out><![CDATA[21:14:07.878 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:14:08.451 [main] DEBUG com.intuit.karate - response time in milliseconds: 572
+1 < 400
+1 < Date: Thu, 13 Nov 2025 02:14:04 GMT
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Content-Length: 31
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac0e73ac37525-MIA
+Could not find customer #999990
+
+---------------------------------------------------------
+feature: classpath:org/udea/parabank/GetAccounts.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 1,1509
+---------------------------------------------------------
+
+Karate version: 1.3.1 | env: prod
+======================================================
+elapsed:   1,94 | threads:    1 | thread time: 1,15 
+features:     1 | skipped:    0 | efficiency: 0,59
+scenarios:    2 | passed:     2 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
+file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="[1:9] Paying a bill with an amount greater than the balance" classname="org/udea/parabank/PayBillFail" time="2.091">
+    <failure message="status code was: 200, expected: 400, response time in milliseconds: 299, url: https://parabank.parasoft.com/parabank/services/bank/billpay?accountId=14787&amp;amount=-236.0, response: &#10;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;&lt;billPayResult&gt;&lt;accountId&gt;14787&lt;/accountId&gt;&lt;amount&gt;-236.0&lt;/amount&gt;&lt;payeeName&gt;Brent Welch&lt;/payeeName&gt;&lt;/billPayResult&gt;&#10;classpath:org/udea/parabank/PayBillFail.feature:42" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 200, expected: 400, response time in milliseconds: 299, url: https://parabank.parasoft.com/parabank/services/bank/billpay?accountId=14787&amount=-236.0, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><billPayResult><accountId>14787</accountId><amount>-236.0</amount><payeeName>Brent Welch</payeeName></billPayResult>
+classpath:org/udea/parabank/PayBillFail.feature:42
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
 	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
@@ -979,44 +534,71 @@ classpath:org/udea/parabank/LoanSimulation.feature:7
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 ]]></failure>
-    <system-out><![CDATA[22:21:45.375 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
+    <system-out><![CDATA[21:14:09.353 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+21:14:09.373 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:14:09.419 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13322/accounts
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
+
+21:14:09.868 [main] DEBUG com.intuit.karate - response time in milliseconds: 448
+1 < 200
+1 < Date: Thu, 13 Nov 2025 02:14:06 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac0f0bbdb359d-MIA
+[{"id":14676,"customerId":13322,"type":"CHECKING","balance":9729.50},{"id":14787,"customerId":13322,"type":"CHECKING","balance":-471.00},{"id":14898,"customerId":13322,"type":"SAVINGS","balance":486.00},{"id":16008,"customerId":13322,"type":"LOAN","balance":-50.00},{"id":16119,"customerId":13322,"type":"LOAN","balance":150.00},{"id":16230,"customerId":13322,"type":"LOAN","balance":1000.00}]
+
+21:14:09.984 [main] DEBUG com.intuit.karate - request:
+2 > POST https://parabank.parasoft.com/parabank/services/bank/billpay?accountId=14787&amount=-236.0
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 171
+2 > Host: parabank.parasoft.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+2 > Accept-Encoding: gzip,deflate
+{"name":"Brent Welch","address":{"street":"Dicki Forge","city":"Erdmanshire","state":"French Polynesia","zipCode":"VA"},"phoneNumber":"834-333-8163","accountNumber":14787}
+
+21:14:10.284 [main] DEBUG com.intuit.karate - response time in milliseconds: 299
+2 < 200
+2 < Date: Thu, 13 Nov 2025 02:14:06 GMT
+2 < Content-Type: application/xml
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < Server: cloudflare
+2 < cf-cache-status: DYNAMIC
+2 < X-Content-Type-Options: nosniff
+2 < CF-RAY: 99dac0f44bcdf498-MIA
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><billPayResult><accountId>14787</accountId><amount>-236.0</amount><payeeName>Brent Welch</payeeName></billPayResult>
+
+21:14:10.322 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/PayBillFail.feature:42
+Then status 400
+status code was: 200, expected: 400, response time in milliseconds: 299, url: https://parabank.parasoft.com/parabank/services/bank/billpay?accountId=14787&amount=-236.0, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><billPayResult><accountId>14787</accountId><amount>-236.0</amount><payeeName>Brent Welch</payeeName></billPayResult>
+classpath:org/udea/parabank/PayBillFail.feature:42
 ---------------------------------------------------------
-feature: classpath:org/udea/parabank/LoanSimulation.feature
-scenarios:  2 | passed:  0 | failed:  2 | time: 0,0165
+feature: classpath:org/udea/parabank/PayBillFail.feature
+scenarios:  1 | passed:  0 | failed:  1 | time: 0,9107
 ---------------------------------------------------------
 
 Karate version: 1.3.1 | env: prod
 ======================================================
-elapsed:   1,49 | threads:    1 | thread time: 0,02 
-features:     1 | skipped:    0 | efficiency: 0,01
-scenarios:    2 | passed:     0 | failed: 2
+elapsed:   1,39 | threads:    1 | thread time: 0,91 
+features:     1 | skipped:    0 | efficiency: 0,66
+scenarios:    1 | passed:     0 | failed: 1
 ======================================================
 >>> failed features:
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
+status code was: 200, expected: 400, response time in milliseconds: 299, url: https://parabank.parasoft.com/parabank/services/bank/billpay?accountId=14787&amount=-236.0, response: 
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><billPayResult><accountId>14787</accountId><amount>-236.0</amount><payeeName>Brent Welch</payeeName></billPayResult>
+classpath:org/udea/parabank/PayBillFail.feature:42
 <<<
 
 HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
@@ -1025,159 +607,65 @@ file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20EN
 
 ]]></system-out>
   </testcase>
-  <testcase name="[2:39] Loan rejection" classname="org/udea/parabank/LoanSimulation" time="0.802">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
+  <testcase name="[1:14] Successful Transfer" classname="org/udea/parabank/TransferFunds" time="0.564">
+    <system-out><![CDATA[21:14:11.490 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+21:14:11.498 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:14:11.736 [main] DEBUG com.intuit.karate - request:
+1 > POST https://parabank.parasoft.com/parabank/services/bank/transfer?amount=180&fromAccountId=14676&toAccountId=14898
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[22:21:47.378 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
+21:14:12.055 [main] DEBUG com.intuit.karate - response time in milliseconds: 319
+1 < 200
+1 < Date: Thu, 13 Nov 2025 02:14:08 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac0ff4891b7f2-MIA
+Successfully transferred $180 from account #14676 to account #14898
+
+]]></system-out>
+  </testcase>
+  <testcase name="[2:23] Transfer Failed" classname="org/udea/parabank/TransferFunds" time="1.033">
+    <system-out><![CDATA[21:14:12.200 [main] DEBUG com.intuit.karate - request:
+1 > POST https://parabank.parasoft.com/parabank/services/bank/transfer?amount=197&fromAccountId=31916&toAccountId=36387
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:14:12.628 [main] DEBUG com.intuit.karate - response time in milliseconds: 426
+1 < 400
+1 < Date: Thu, 13 Nov 2025 02:14:09 GMT
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Content-Length: 48
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac101f9a3db1d-MIA
+Could not find account number 31916 and/or 36387
+
 ---------------------------------------------------------
-feature: classpath:org/udea/parabank/LoanSimulation.feature
-scenarios:  2 | passed:  0 | failed:  2 | time: 0,1042
+feature: classpath:org/udea/parabank/TransferFunds.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 0,9799
 ---------------------------------------------------------
 
 Karate version: 1.3.1 | env: prod
 ======================================================
-elapsed:   0,93 | threads:    1 | thread time: 0,10 
-features:     1 | skipped:    0 | efficiency: 0,11
-scenarios:    2 | passed:     0 | failed: 2
+elapsed:   1,37 | threads:    1 | thread time: 0,98 
+features:     1 | skipped:    0 | efficiency: 0,72
+scenarios:    2 | passed:     2 | failed: 0
 ======================================================
->>> failed features:
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
 file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
@@ -1185,319 +673,65 @@ file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20EN
 
 ]]></system-out>
   </testcase>
-  <testcase name="[2:39] Loan rejection" classname="org/udea/parabank/LoanSimulation" time="1.251">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
+  <testcase name="[1:8] Customer Login" classname="org/udea/parabank/login" time="0.51">
+    <system-out><![CDATA[21:14:13.166 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+21:14:13.222 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:14:13.360 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/login/vafeda/vafeda
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[22:21:48.246 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
----------------------------------------------------------
-feature: classpath:org/udea/parabank/LoanSimulation.feature
-scenarios:  2 | passed:  0 | failed:  2 | time: 0,0084
----------------------------------------------------------
-
-Karate version: 1.3.1 | env: prod
-======================================================
-elapsed:   0,82 | threads:    1 | thread time: 0,01 
-features:     1 | skipped:    0 | efficiency: 0,01
-scenarios:    2 | passed:     0 | failed: 2
-======================================================
->>> failed features:
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-<<<
-
-HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
-file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
-===================================================================
+21:14:13.704 [main] DEBUG com.intuit.karate - response time in milliseconds: 344
+1 < 200
+1 < Date: Thu, 13 Nov 2025 02:14:10 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac1099f83650a-MIA
+{"id":13322,"firstName":"vafeda","lastName":"vafeda","address":{"street":"e","city":"e","state":"e","zipCode":"e"},"phoneNumber":"e","ssn":"e"}
 
 ]]></system-out>
   </testcase>
-  <testcase name="[2:39] Loan rejection" classname="org/udea/parabank/LoanSimulation" time="1.11">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: fakerObj.number().numberBetween(1, 5000)&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;fakerObj&quot; is not defined&#10;- &lt;js&gt;.:program(Unnamed:1)&#10;&#10;classpath:org/udea/parabank/LoanSimulation.feature:7" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
+  <testcase name="[2:31] Failed Customer Login" classname="org/udea/parabank/login" time="0.998">
+    <system-out><![CDATA[21:14:13.819 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/login/invalidUser/invalidPass
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[22:21:49.708 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/LoanSimulation.feature:7
-* def amount = fakerObj.number().numberBetween(1, 5000)
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
 
-classpath:org/udea/parabank/LoanSimulation.feature:7
+21:14:14.155 [main] DEBUG com.intuit.karate - response time in milliseconds: 334
+1 < 400
+1 < Date: Thu, 13 Nov 2025 02:14:10 GMT
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Content-Length: 32
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99dac10c69e1dae5-MIA
+Invalid username and/or password
+
 ---------------------------------------------------------
-feature: classpath:org/udea/parabank/LoanSimulation.feature
-scenarios:  2 | passed:  0 | failed:  2 | time: 0,0191
+feature: classpath:org/udea/parabank/login.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 0,8045
 ---------------------------------------------------------
 
 Karate version: 1.3.1 | env: prod
 ======================================================
-elapsed:   1,08 | threads:    1 | thread time: 0,02 
-features:     1 | skipped:    0 | efficiency: 0,02
-scenarios:    2 | passed:     0 | failed: 2
+elapsed:   1,32 | threads:    1 | thread time: 0,81 
+features:     1 | skipped:    0 | efficiency: 0,61
+scenarios:    2 | passed:     2 | failed: 0
 ======================================================
->>> failed features:
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-js failed:
->>>>
-01: fakerObj.number().numberBetween(1, 5000)
-<<<<
-org.graalvm.polyglot.PolyglotException: ReferenceError: "fakerObj" is not defined
-- <js>.:program(Unnamed:1)
-
-classpath:org/udea/parabank/LoanSimulation.feature:7
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
 file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
