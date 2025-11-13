@@ -1,12 +1,23 @@
 -------------------------------------------------------------------------------
 Test set: org.udea.parabank.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 12.989 s <<< FAILURE! - in org.udea.parabank.TestRunner
-org/udea/parabank/TransferFunds.[1:14] Successful Transfer  Time elapsed: 3.221 s  <<< FAILURE!
+Tests run: 10, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 12.466 s <<< FAILURE! - in org.udea.parabank.TestRunner
+org/udea/parabank/GetAccounts.[1:9] Retrieve accounts for a customer  Time elapsed: 3.336 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 748, url: https://parabank.parasoft.com/parabank/services/bank/transfer?amount=112&fromAccountId=14676&toAccountId=14898, response: 
-Could not find account number 14676 and/or 14898
-classpath:org/udea/parabank/TransferFunds.feature:20
+match failed: EQUALS
+  $ | not equal | array match failed at index 1 (LIST:LIST)
+  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
+  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
+
+    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
+    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
+    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
+
+      $[1].balance | not equal (NUMBER:NUMBER)
+      -448.0
+      90.0
+
+classpath:org/udea/parabank/GetAccounts.feature:13
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
 	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
@@ -111,11 +122,22 @@ classpath:org/udea/parabank/TransferFunds.feature:20
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-org/udea/parabank/TransferFunds.[1:14] Successful Transfer  Time elapsed: 0.404 s  <<< FAILURE!
+org/udea/parabank/GetAccounts.[1:9] Retrieve accounts for a customer  Time elapsed: 0.323 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 304, url: https://parabank.parasoft.com/parabank/services/bank/transfer?amount=159&fromAccountId=14676&toAccountId=14898, response: 
-Could not find account number 14676 and/or 14898
-classpath:org/udea/parabank/TransferFunds.feature:20
+match failed: EQUALS
+  $ | not equal | array match failed at index 1 (LIST:LIST)
+  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
+  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
+
+    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
+    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
+    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
+
+      $[1].balance | not equal (NUMBER:NUMBER)
+      -448.0
+      90.0
+
+classpath:org/udea/parabank/GetAccounts.feature:13
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
 	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
@@ -220,11 +242,11 @@ classpath:org/udea/parabank/TransferFunds.feature:20
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-org/udea/parabank/TransferFunds.[1:14] Successful Transfer  Time elapsed: 0.367 s  <<< FAILURE!
+org/udea/parabank/GetAccounts.[1:9] Retrieve accounts for a customer  Time elapsed: 0.451 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 270, url: https://parabank.parasoft.com/parabank/services/bank/transfer?amount=24&fromAccountId=14676&toAccountId=14898, response: 
-Could not find account number 14676 and/or 14898
-classpath:org/udea/parabank/TransferFunds.feature:20
+status code was: 400, expected: 200, response time in milliseconds: 413, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
+Could not find customer #13211
+classpath:org/udea/parabank/GetAccounts.feature:12
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
 	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
@@ -329,11 +351,11 @@ classpath:org/udea/parabank/TransferFunds.feature:20
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-org/udea/parabank/TransferFunds.[1:14] Successful Transfer  Time elapsed: 0.373 s  <<< FAILURE!
+org/udea/parabank/GetAccounts.[1:9] Retrieve accounts for a customer  Time elapsed: 0.354 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 300, url: https://parabank.parasoft.com/parabank/services/bank/transfer?amount=43&fromAccountId=14676&toAccountId=14898, response: 
-Could not find account number 14676 and/or 14898
-classpath:org/udea/parabank/TransferFunds.feature:20
+status code was: 400, expected: 200, response time in milliseconds: 309, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
+Could not find customer #13211
+classpath:org/udea/parabank/GetAccounts.feature:12
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
 	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
@@ -438,11 +460,11 @@ classpath:org/udea/parabank/TransferFunds.feature:20
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
-org/udea/parabank/TransferFunds.[1:14] Successful Transfer  Time elapsed: 0.377 s  <<< FAILURE!
+org/udea/parabank/GetAccounts.[1:9] Retrieve accounts for a customer  Time elapsed: 0.463 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 343, url: https://parabank.parasoft.com/parabank/services/bank/transfer?amount=30&fromAccountId=14676&toAccountId=14898, response: 
-Could not find account number 14676 and/or 14898
-classpath:org/udea/parabank/TransferFunds.feature:20
+status code was: 400, expected: 200, response time in milliseconds: 437, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
+Could not find customer #13211
+classpath:org/udea/parabank/GetAccounts.feature:12
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
 	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
