@@ -39,8 +39,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">1</div>
-      <div id="nav-fail" class="bg-danger">1</div>
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-env">
@@ -50,16 +50,16 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-11-12 09:53:56 p. m.</div>
+    <div>2025-11-12 10:23:30 p. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[1:9]"><span>[1:9]</span> <span>Retrieve accounts for a customer</span></a>
           </div>
           <div class="nav-item passed">
-            <a href="#[2:49]"><span>[2:49]</span> <span>Failed Retrieve accounts for a customer</span></a>
+            <a href="#[2:23]"><span>[2:23]</span> <span>Failed Retrieve accounts for a customer</span></a>
           </div>
         </div>
       </div>
@@ -84,8 +84,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>448</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>440</span>
             </div>
           </div>
           <div class="step-row">
@@ -108,7 +108,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>url baseUrl</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">16</div>
   </div>
 
    
@@ -161,7 +161,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref bg-step">7</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def customerId = 13211</span>
+        <span>*</span>&nbsp;<span>def customerId = 12212</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -220,7 +220,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">444</div>
+    <div class="time-cell passed">417</div>
   </div>
 
    
@@ -229,8 +229,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.11">21:53:56.187 request:
-1 &gt; GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+  <div class="preformatted" data-parent="0.11">22:23:29.711 request:
+1 &gt; GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 &gt; Accept: application/json
 1 &gt; Host: parabank.parasoft.com
 1 &gt; Connection: Keep-Alive
@@ -238,17 +238,17 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-21:53:56.626 response time in milliseconds: 437
-1 &lt; 400
-1 &lt; Date: Thu, 13 Nov 2025 02:53:52 GMT
-1 &lt; Content-Type: text/plain;charset=UTF-8
-1 &lt; Content-Length: 30
+22:23:30.126 response time in milliseconds: 415
+1 &lt; 200
+1 &lt; Date: Thu, 13 Nov 2025 03:23:26 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
 1 &lt; Server: cloudflare
 1 &lt; cf-cache-status: DYNAMIC
 1 &lt; X-Content-Type-Options: nosniff
-1 &lt; CF-RAY: 99dafb3469f05154-MIA
-Could not find customer #13211
+1 &lt; CF-RAY: 99db267fcb54a54b-MIA
+[{&quot;id&quot;:12345,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:9674015.00},{&quot;id&quot;:12456,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:-452.00},{&quot;id&quot;:12567,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:101.00},{&quot;id&quot;:12678,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;SAVINGS&quot;,&quot;balance&quot;:0.00},{&quot;id&quot;:12789,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:0.00},{&quot;id&quot;:12900,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:-210.00},{&quot;id&quot;:13011,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:-150.00},{&quot;id&quot;:13122,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:1000.00},{&quot;id&quot;:13233,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:100.00},{&quot;id&quot;:13344,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;SAVINGS&quot;,&quot;balance&quot;:-999618.90},{&quot;id&quot;:13566,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:5.00},{&quot;id&quot;:13677,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:10.00},{&quot;id&quot;:13899,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:21.00},{&quot;id&quot;:14010,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:21.00},{&quot;id&quot;:14232,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:12.00},{&quot;id&quot;:14343,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:16.00},{&quot;id&quot;:54321,&quot;customerId&quot;:12212,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:1351.12}]
 
 </div>   
 
@@ -263,13 +263,13 @@ Could not find customer #13211
 
   <div class="step-row">
     <div class="step-container" id="0.12">
-      <div class="step-ref failed">12</div>
+      <div class="step-ref passed">12</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -278,12 +278,7 @@ Could not find customer #13211
 
   
 
-  <div class="preformatted" data-parent="0.12">21:53:56.628 classpath:org/udea/parabank/GetAccounts.feature:12
-Then status 200
-status code was: 400, expected: 200, response time in milliseconds: 437, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-</div>   
+     
 
   
 
@@ -296,49 +291,23 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 
   <div class="step-row">
     <div class="step-container" id="0.13">
-      <div class="step-ref skipped">13</div>
+      <div class="step-ref passed">13</div>
       
-      <div class="step-cell skipped">
-        <span>And</span>&nbsp;<span>match response ==</span>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match each response ==</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
   
-  <div class="preformatted" data-parent="0.13">[
-  {
-    &quot;id&quot;: 14787,
-    &quot;customerId&quot;: #(customerId),
-    &quot;type&quot;: &quot;CHECKING&quot;,
-    &quot;balance&quot;: 265.50
-  },
-  {
-    &quot;id&quot;: 14898,
-    &quot;customerId&quot;: #(customerId),
-    &quot;type&quot;: &quot;CHECKING&quot;,
-    &quot;balance&quot;: 90.00
-  },
-  {
-    &quot;id&quot;: 15009,
-    &quot;customerId&quot;: #(customerId),
-    &quot;type&quot;: &quot;SAVINGS&quot;,
-    &quot;balance&quot;: 100.00
-  },
-  {
-    &quot;id&quot;: 15120,
-    &quot;customerId&quot;: #(customerId),
-    &quot;type&quot;: &quot;LOAN&quot;,
-    &quot;balance&quot;: 50.00
-  },
-  {
-    &quot;id&quot;: 15231,
-    &quot;customerId&quot;: #(customerId),
-    &quot;type&quot;: &quot;LOAN&quot;,
-    &quot;balance&quot;: 250.00
-  }
-]</div>
+  <div class="preformatted" data-parent="0.13">{
+  id: &#39;#number&#39;,
+  customerId: &#39;#number&#39;,
+  type: &#39;#string&#39;,
+  balance: &#39;#number&#39;
+}</div>
 
   
 
@@ -350,29 +319,29 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 </div>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2:49]">
+          <div class="scenario-heading" id="[2:23]">
             <div class="heading-container">
               <div class="scenario-tags">
                 <a class="badge badge-primary" href="karate-tags.html">parabank_get_accounts</a>
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2:49]</span>
+                Scenario: <span>[2:23]</span>
                 <span class="scenario-name">Failed Retrieve accounts for a customer</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>265</span>
+              <span>ms:</span>&nbsp;<span>298</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2:49]bg">
+            <div class="step-container" id="[2:23]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2:49]bg"><div>
+          <div data-parent="[2:23]bg"><div>
   
 
   
@@ -400,7 +369,7 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 
 </div>
 </div>
-          <div data-parent="[2:49]bg"><div>
+          <div data-parent="[2:23]bg"><div>
   
 
   
@@ -428,7 +397,7 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 
 </div>
 </div>
-          <div data-parent="[2:49]bg"><div>
+          <div data-parent="[2:23]bg"><div>
   
 
   
@@ -438,7 +407,7 @@ classpath:org/udea/parabank/GetAccounts.feature:12
       <div class="step-ref bg-step">7</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def customerId = 13211</span>
+        <span>*</span>&nbsp;<span>def customerId = 12212</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -462,8 +431,8 @@ classpath:org/udea/parabank/GetAccounts.feature:12
   
 
   <div class="step-row">
-    <div class="step-container" id="0.50">
-      <div class="step-ref passed">50</div>
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
       
       <div class="step-cell passed">
         <span>Given</span>&nbsp;<span>def fakeCustomerId = 999990</span>
@@ -490,8 +459,8 @@ classpath:org/udea/parabank/GetAccounts.feature:12
   
 
   <div class="step-row">
-    <div class="step-container" id="0.51">
-      <div class="step-ref passed">51</div>
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>path &#39;customers/&#39; + fakeCustomerId + &#39;/accounts&#39;</span>
@@ -518,14 +487,14 @@ classpath:org/udea/parabank/GetAccounts.feature:12
   
 
   <div class="step-row">
-    <div class="step-container" id="0.52">
-      <div class="step-ref passed">52</div>
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
       
       <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">261</div>
+    <div class="time-cell passed">295</div>
   </div>
 
    
@@ -534,7 +503,7 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 
   
 
-  <div class="preformatted" data-parent="0.52">21:53:56.645 request:
+  <div class="preformatted" data-parent="0.26">22:23:30.142 request:
 1 &gt; GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 &gt; Accept: application/json
 1 &gt; Host: parabank.parasoft.com
@@ -543,16 +512,16 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-21:53:56.902 response time in milliseconds: 257
+22:23:30.433 response time in milliseconds: 291
 1 &lt; 400
-1 &lt; Date: Thu, 13 Nov 2025 02:53:53 GMT
+1 &lt; Date: Thu, 13 Nov 2025 03:23:26 GMT
 1 &lt; Content-Type: text/plain;charset=UTF-8
 1 &lt; Content-Length: 31
 1 &lt; Connection: keep-alive
 1 &lt; Server: cloudflare
 1 &lt; cf-cache-status: DYNAMIC
 1 &lt; X-Content-Type-Options: nosniff
-1 &lt; CF-RAY: 99dafb373bf2c962-MIA
+1 &lt; CF-RAY: 99db26828cd2dfba-MIA
 Could not find customer #999990
 
 </div>   
@@ -567,8 +536,8 @@ Could not find customer #999990
   
 
   <div class="step-row">
-    <div class="step-container" id="0.53">
-      <div class="step-ref passed">53</div>
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
       
       <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 400</span>
@@ -595,8 +564,8 @@ Could not find customer #999990
   
 
   <div class="step-row">
-    <div class="step-container" id="0.54">
-      <div class="step-ref passed">54</div>
+    <div class="step-container" id="0.28">
+      <div class="step-ref passed">28</div>
       
       <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == &quot;Could not find customer #&quot; + fakeCustomerId</span>

@@ -1,8 +1,8 @@
-21:53:45.879 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:46.100 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:46.284 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:48.622 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+22:23:19.812 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:20.068 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:20.276 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:22.411 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -10,69 +10,19 @@
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:49.518 [main] DEBUG com.intuit.karate - response time in milliseconds: 891
+22:23:23.174 [main] DEBUG com.intuit.karate - response time in milliseconds: 752
 1 < 200
-1 < Date: Thu, 13 Nov 2025 02:53:45 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:19 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb07c8fc60eb-MIA
-[{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.50},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.00},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.00},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.00},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.00}]
+1 < CF-RAY: 99db2653ee6f9aa6-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:49.676 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:13
-And match response ==
-"""
-[
-  {
-    "id": 14787,
-    "customerId": #(customerId),
-    "type": "CHECKING",
-    "balance": 265.50
-  },
-  {
-    "id": 14898,
-    "customerId": #(customerId),
-    "type": "CHECKING",
-    "balance": 90.00
-  },
-  {
-    "id": 15009,
-    "customerId": #(customerId),
-    "type": "SAVINGS",
-    "balance": 100.00
-  },
-  {
-    "id": 15120,
-    "customerId": #(customerId),
-    "type": "LOAN",
-    "balance": 50.00
-  },
-  {
-    "id": 15231,
-    "customerId": #(customerId),
-    "type": "LOAN",
-    "balance": 250.00
-  }
-]
-"""
-match failed: EQUALS
-  $ | not equal | array match failed at index 1 (LIST:LIST)
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
-
-    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
-
-      $[1].balance | not equal (NUMBER:NUMBER)
-      -448.0
-      90.0
-
-classpath:org/udea/parabank/GetAccounts.feature:13
-21:53:49.776 [main] DEBUG com.intuit.karate - request:
+22:23:23.336 [main] DEBUG com.intuit.karate - request:
 1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
@@ -81,23 +31,23 @@ classpath:org/udea/parabank/GetAccounts.feature:13
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:50.118 [main] DEBUG com.intuit.karate - response time in milliseconds: 342
+22:23:23.627 [main] DEBUG com.intuit.karate - response time in milliseconds: 288
 1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:46 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:19 GMT
 1 < Content-Type: text/plain;charset=UTF-8
 1 < Content-Length: 31
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb0caff59ad2-MIA
+1 < CF-RAY: 99db26580ac08182-MIA
 Could not find customer #999990
 
-21:53:52.171 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:52.180 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:52.185 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:52.244 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+22:23:25.392 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:25.412 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:25.418 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:25.463 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -105,69 +55,19 @@ Could not find customer #999990
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:52.508 [main] DEBUG com.intuit.karate - response time in milliseconds: 264
+22:23:25.919 [main] DEBUG com.intuit.karate - response time in milliseconds: 455
 1 < 200
-1 < Date: Thu, 13 Nov 2025 02:53:48 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:22 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb1bbd557494-MIA
-[{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.50},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.00},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.00},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.00},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.00}]
+1 < CF-RAY: 99db266579f8a4dc-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:52.516 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:13
-And match response ==
-"""
-[
-  {
-    "id": 14787,
-    "customerId": #(customerId),
-    "type": "CHECKING",
-    "balance": 265.50
-  },
-  {
-    "id": 14898,
-    "customerId": #(customerId),
-    "type": "CHECKING",
-    "balance": 90.00
-  },
-  {
-    "id": 15009,
-    "customerId": #(customerId),
-    "type": "SAVINGS",
-    "balance": 100.00
-  },
-  {
-    "id": 15120,
-    "customerId": #(customerId),
-    "type": "LOAN",
-    "balance": 50.00
-  },
-  {
-    "id": 15231,
-    "customerId": #(customerId),
-    "type": "LOAN",
-    "balance": 250.00
-  }
-]
-"""
-match failed: EQUALS
-  $ | not equal | array match failed at index 1 (LIST:LIST)
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
-
-    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
-
-      $[1].balance | not equal (NUMBER:NUMBER)
-      -448.0
-      90.0
-
-classpath:org/udea/parabank/GetAccounts.feature:13
-21:53:52.534 [main] DEBUG com.intuit.karate - request:
+22:23:25.957 [main] DEBUG com.intuit.karate - request:
 1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
@@ -176,23 +76,23 @@ classpath:org/udea/parabank/GetAccounts.feature:13
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:52.833 [main] DEBUG com.intuit.karate - response time in milliseconds: 298
+22:23:26.482 [main] DEBUG com.intuit.karate - response time in milliseconds: 525
 1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:49 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:22 GMT
 1 < Content-Type: text/plain;charset=UTF-8
 1 < Content-Length: 31
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb1db8920d84-MIA
+1 < CF-RAY: 99db2668af40b1ba-MIA
 Could not find customer #999990
 
-21:53:53.635 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:53.658 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:53.664 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:53.700 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+22:23:27.027 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:27.036 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:27.044 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:27.068 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -200,24 +100,19 @@ Could not find customer #999990
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:54.117 [main] DEBUG com.intuit.karate - response time in milliseconds: 413
-1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:50 GMT
-1 < Content-Type: text/plain;charset=UTF-8
-1 < Content-Length: 30
+22:23:27.518 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 200
+1 < Date: Thu, 13 Nov 2025 03:23:23 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb24db68efa6-MIA
-Could not find customer #13211
+1 < CF-RAY: 99db266f3cfde6c4-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:54.118 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:12
-Then status 200
-status code was: 400, expected: 200, response time in milliseconds: 413, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-21:53:54.138 [main] DEBUG com.intuit.karate - request:
+22:23:27.536 [main] DEBUG com.intuit.karate - request:
 1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
@@ -226,23 +121,23 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:54.446 [main] DEBUG com.intuit.karate - response time in milliseconds: 308
+22:23:27.981 [main] DEBUG com.intuit.karate - response time in milliseconds: 444
 1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:50 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:24 GMT
 1 < Content-Type: text/plain;charset=UTF-8
 1 < Content-Length: 31
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb27da97a542-MIA
+1 < CF-RAY: 99db26724d979ac9-MIA
 Could not find customer #999990
 
-21:53:54.804 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:54.833 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:54.841 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:54.882 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+22:23:28.307 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:28.314 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:28.320 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:28.342 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -250,24 +145,19 @@ Could not find customer #999990
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:55.200 [main] DEBUG com.intuit.karate - response time in milliseconds: 309
-1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:51 GMT
-1 < Content-Type: text/plain;charset=UTF-8
-1 < Content-Length: 30
+22:23:28.794 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 200
+1 < Date: Thu, 13 Nov 2025 03:23:24 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb2c78cf5c71-MIA
-Could not find customer #13211
+1 < CF-RAY: 99db26777c9eed32-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:55.202 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:12
-Then status 200
-status code was: 400, expected: 200, response time in milliseconds: 309, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-21:53:55.217 [main] DEBUG com.intuit.karate - request:
+22:23:28.820 [main] DEBUG com.intuit.karate - request:
 1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
@@ -276,23 +166,23 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:55.543 [main] DEBUG com.intuit.karate - response time in milliseconds: 326
+22:23:29.131 [main] DEBUG com.intuit.karate - response time in milliseconds: 309
 1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:51 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:25 GMT
 1 < Content-Type: text/plain;charset=UTF-8
 1 < Content-Length: 31
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb2ead18f50c-MIA
+1 < CF-RAY: 99db267a583f987e-MIA
 Could not find customer #999990
 
-21:53:56.145 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:56.156 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:56.160 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:56.186 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+22:23:29.502 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:29.614 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:29.664 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:29.711 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -300,24 +190,19 @@ Could not find customer #999990
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:56.626 [main] DEBUG com.intuit.karate - response time in milliseconds: 437
-1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:52 GMT
-1 < Content-Type: text/plain;charset=UTF-8
-1 < Content-Length: 30
+22:23:30.126 [main] DEBUG com.intuit.karate - response time in milliseconds: 415
+1 < 200
+1 < Date: Thu, 13 Nov 2025 03:23:26 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb3469f05154-MIA
-Could not find customer #13211
+1 < CF-RAY: 99db267fcb54a54b-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:56.626 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:12
-Then status 200
-status code was: 400, expected: 200, response time in milliseconds: 437, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-21:53:56.645 [main] DEBUG com.intuit.karate - request:
+22:23:30.142 [main] DEBUG com.intuit.karate - request:
 1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
@@ -326,15 +211,15 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:56.902 [main] DEBUG com.intuit.karate - response time in milliseconds: 257
+22:23:30.433 [main] DEBUG com.intuit.karate - response time in milliseconds: 291
 1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:53 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:26 GMT
 1 < Content-Type: text/plain;charset=UTF-8
 1 < Content-Length: 31
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb373bf2c962-MIA
+1 < CF-RAY: 99db26828cd2dfba-MIA
 Could not find customer #999990
 

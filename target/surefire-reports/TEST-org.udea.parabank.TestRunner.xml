@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.udea.parabank.TestRunner" time="12.466" tests="10" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="org.udea.parabank.TestRunner" time="11.926" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire5384956088789254911\surefirebooter5985868373009434194.jar C:\Users\ASUS\AppData\Local\Temp\surefire5384956088789254911 2025-11-12T21-53-42_067-jvmRun1 surefire16865858532945694312tmp surefire_015317436939392050856tmp"/>
+    <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire2772541894191008475\surefirebooter9252265138418026520.jar C:\Users\ASUS\AppData\Local\Temp\surefire2772541894191008475 2025-11-12T22-23-16_465-jvmRun1 surefire14662045853029732880tmp surefire_012399585983662942847tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="TestRunner"/>
     <property name="surefire.test.class.path" value="C:\Users\ASUS\Desktop\Pruebas de software [Electiva LINEA ENFASÍS IN DE SOF Y SIS DE IN]\Entregas\Practica 5\UDEA_KaratePS\target\test-classes;C:\Users\ASUS\Desktop\Pruebas de software [Electiva LINEA ENFASÍS IN DE SOF Y SIS DE IN]\Entregas\Practica 5\UDEA_KaratePS\target\classes;C:\Users\ASUS\.m2\repository\com\intuit\karate\karate-core\1.3.1\karate-core-1.3.1.jar;C:\Users\ASUS\.m2\repository\org\graalvm\js\js-scriptengine\22.0.0.2\js-scriptengine-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\graalvm\sdk\graal-sdk\22.0.0.2\graal-sdk-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\graalvm\js\js\22.0.0.2\js-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\graalvm\regex\regex\22.0.0.2\regex-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\graalvm\truffle\truffle-api\22.0.0.2\truffle-api-22.0.0.2.jar;C:\Users\ASUS\.m2\repository\org\thymeleaf\thymeleaf\3.0.14.RELEASE\thymeleaf-3.0.14.RELEASE.jar;C:\Users\ASUS\.m2\repository\ognl\ognl\3.1.26\ognl-3.1.26.jar;C:\Users\ASUS\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\ASUS\.m2\repository\org\attoparser\attoparser\2.0.5.RELEASE\attoparser-2.0.5.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\ASUS\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\ASUS\.m2\repository\com\linecorp\armeria\armeria\1.18.0\armeria-1.18.0.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.3\jackson-core-2.13.3.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.3\jackson-annotations-2.13.3.jar;C:\Users\ASUS\.m2\repository\io\micrometer\micrometer-core\1.9.2\micrometer-core-1.9.2.jar;C:\Users\ASUS\.m2\repository\org\hdrhistogram\HdrHistogram\2.1.12\HdrHistogram-2.1.12.jar;C:\Users\ASUS\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport\4.1.79.Final\netty-transport-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-common\4.1.79.Final\netty-common-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-buffer\4.1.79.Final\netty-buffer-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver\4.1.79.Final\netty-resolver-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-haproxy\4.1.79.Final\netty-codec-haproxy-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec\4.1.79.Final\netty-codec-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http2\4.1.79.Final\netty-codec-http2-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler\4.1.79.Final\netty-handler-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-http\4.1.79.Final\netty-codec-http-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns\4.1.79.Final\netty-resolver-dns-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-dns\4.1.79.Final\netty-codec-dns-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.79.Final\netty-transport-native-unix-common-4.1.79.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-epoll\4.1.79.Final\netty-transport-native-epoll-4.1.79.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.79.Final\netty-transport-native-unix-common-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.79.Final\netty-transport-classes-epoll-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.79.Final\netty-resolver-dns-native-macos-4.1.79.Final-osx-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.79.Final\netty-resolver-dns-classes-macos-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.79.Final\netty-resolver-dns-native-macos-4.1.79.Final-osx-aarch_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-linux-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-classes\2.0.53.Final\netty-tcnative-classes-2.0.53.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-linux-aarch_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-osx-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-osx-aarch_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.53.Final\netty-tcnative-boringssl-static-2.0.53.Final-windows-x86_64.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-handler-proxy\4.1.79.Final\netty-handler-proxy-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\io\netty\netty-codec-socks\4.1.79.Final\netty-codec-socks-4.1.79.Final.jar;C:\Users\ASUS\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.7.1\brotli4j-1.7.1.jar;C:\Users\ASUS\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.7.1\native-windows-x86_64-1.7.1.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-classic\1.2.9\logback-classic-1.2.9.jar;C:\Users\ASUS\.m2\repository\ch\qos\logback\logback-core\1.2.9\logback-core-1.2.9.jar;C:\Users\ASUS\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.32\jcl-over-slf4j-1.7.32.jar;C:\Users\ASUS\.m2\repository\org\antlr\antlr4-runtime\4.9.3\antlr4-runtime-4.9.3.jar;C:\Users\ASUS\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\ASUS\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\ASUS\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\ASUS\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar;C:\Users\ASUS\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\ASUS\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.32\snakeyaml-1.32.jar;C:\Users\ASUS\.m2\repository\de\siegmar\fastcsv\2.0.0\fastcsv-2.0.0.jar;C:\Users\ASUS\.m2\repository\info\picocli\picocli\4.6.1\picocli-4.6.1.jar;C:\Users\ASUS\.m2\repository\io\github\classgraph\classgraph\4.8.149\classgraph-4.8.149.jar;C:\Users\ASUS\.m2\repository\io\github\t12y\resemble\1.0.2\resemble-1.0.2.jar;C:\Users\ASUS\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\ASUS\.m2\repository\com\intuit\karate\karate-junit5\1.3.1\karate-junit5-1.3.1.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\ASUS\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\ASUS\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;C:\Users\ASUS\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.2\junit-jupiter-engine-5.7.2.jar;C:\Users\ASUS\.m2\repository\org\junit\platform\junit-platform-engine\1.7.2\junit-platform-engine-1.7.2.jar;C:\Users\ASUS\.m2\repository\net\masterthought\cucumber-reporting\5.7.4\cucumber-reporting-5.7.4.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2.2\jackson-databind-2.13.2.2.jar;C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.13.2\jackson-datatype-jsr310-2.13.2.jar;C:\Users\ASUS\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar;C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ASUS\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.2\plexus-utils-3.4.2.jar;C:\Users\ASUS\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\ASUS\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\ASUS\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\ASUS\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\ASUS\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\ASUS\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\ASUS\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\ASUS\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20211018.2\owasp-java-html-sanitizer-20211018.2.jar;C:\Users\ASUS\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\ASUS\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\ASUS\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\json-schema-validator\2.2.14\json-schema-validator-2.2.14.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\jackson-coreutils-equivalence\1.0\jackson-coreutils-equivalence-1.0.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\jackson-coreutils\2.0\jackson-coreutils-2.0.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\msg-simple\1.2\msg-simple-1.2.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\btf\1.3\btf-1.3.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\json-schema-core\1.2.14\json-schema-core-1.2.14.jar;C:\Users\ASUS\.m2\repository\com\github\java-json-tools\uri-template\0.10\uri-template-0.10.jar;C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7.7.2\rhino-1.7.7.2.jar;C:\Users\ASUS\.m2\repository\com\sun\mail\mailapi\1.6.2\mailapi-1.6.2.jar;C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.11.1\libphonenumber-8.11.1.jar;C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\ASUS\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\ASUS\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\ASUS\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;"/>
@@ -33,7 +33,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="karate.options" value="classpath:org/udea/parabank/GetAccounts.feature"/>
-    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire5384956088789254911\surefirebooter5985868373009434194.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ASUS\AppData\Local\Temp\surefire2772541894191008475\surefirebooter9252265138418026520.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -60,131 +60,12 @@
     <property name="java.class.version" value="61.0"/>
     <property name="maven.test.failure.ignore" value="true"/>
   </properties>
-  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="3.336">
-    <failure message="match failed: EQUALS&#10;  $ | not equal | array match failed at index 1 (LIST:LIST)&#10;  [{&quot;id&quot;:14787,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:265.5},{&quot;id&quot;:14898,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:-448.0},{&quot;id&quot;:15009,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;SAVINGS&quot;,&quot;balance&quot;:179.0},{&quot;id&quot;:15120,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:50.0},{&quot;id&quot;:15231,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:171.0}]&#10;  [{&quot;id&quot;:14787,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:265.5},{&quot;id&quot;:14898,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:90.0},{&quot;id&quot;:15009,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;SAVINGS&quot;,&quot;balance&quot;:100.0},{&quot;id&quot;:15120,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:50.0},{&quot;id&quot;:15231,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:250.0}]&#10;&#10;    $[1] | not equal | match failed for name: &apos;balance&apos; (MAP:MAP)&#10;    {&quot;id&quot;:14898,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:-448.0}&#10;    {&quot;id&quot;:14898,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:90.0}&#10;&#10;      $[1].balance | not equal (NUMBER:NUMBER)&#10;      -448.0&#10;      90.0&#10;&#10;classpath:org/udea/parabank/GetAccounts.feature:13" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-match failed: EQUALS
-  $ | not equal | array match failed at index 1 (LIST:LIST)
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
-
-    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
-
-      $[1].balance | not equal (NUMBER:NUMBER)
-      -448.0
-      90.0
-
-classpath:org/udea/parabank/GetAccounts.feature:13
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[21:53:45.879 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:46.100 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:46.284 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:48.622 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="2.964">
+    <system-out><![CDATA[22:23:19.812 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:20.068 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:20.276 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:22.411 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -192,195 +73,26 @@ classpath:org/udea/parabank/GetAccounts.feature:13
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:49.518 [main] DEBUG com.intuit.karate - response time in milliseconds: 891
+22:23:23.174 [main] DEBUG com.intuit.karate - response time in milliseconds: 752
 1 < 200
-1 < Date: Thu, 13 Nov 2025 02:53:45 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:19 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb07c8fc60eb-MIA
-[{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.50},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.00},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.00},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.00},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.00}]
+1 < CF-RAY: 99db2653ee6f9aa6-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:49.676 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:13
-And match response ==
-"""
-[
-  {
-    "id": 14787,
-    "customerId": #(customerId),
-    "type": "CHECKING",
-    "balance": 265.50
-  },
-  {
-    "id": 14898,
-    "customerId": #(customerId),
-    "type": "CHECKING",
-    "balance": 90.00
-  },
-  {
-    "id": 15009,
-    "customerId": #(customerId),
-    "type": "SAVINGS",
-    "balance": 100.00
-  },
-  {
-    "id": 15120,
-    "customerId": #(customerId),
-    "type": "LOAN",
-    "balance": 50.00
-  },
-  {
-    "id": 15231,
-    "customerId": #(customerId),
-    "type": "LOAN",
-    "balance": 250.00
-  }
-]
-"""
-match failed: EQUALS
-  $ | not equal | array match failed at index 1 (LIST:LIST)
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
-
-    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
-
-      $[1].balance | not equal (NUMBER:NUMBER)
-      -448.0
-      90.0
-
-classpath:org/udea/parabank/GetAccounts.feature:13
 ]]></system-out>
   </testcase>
-  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.323">
-    <failure message="match failed: EQUALS&#10;  $ | not equal | array match failed at index 1 (LIST:LIST)&#10;  [{&quot;id&quot;:14787,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:265.5},{&quot;id&quot;:14898,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:-448.0},{&quot;id&quot;:15009,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;SAVINGS&quot;,&quot;balance&quot;:179.0},{&quot;id&quot;:15120,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:50.0},{&quot;id&quot;:15231,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:171.0}]&#10;  [{&quot;id&quot;:14787,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:265.5},{&quot;id&quot;:14898,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:90.0},{&quot;id&quot;:15009,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;SAVINGS&quot;,&quot;balance&quot;:100.0},{&quot;id&quot;:15120,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:50.0},{&quot;id&quot;:15231,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;LOAN&quot;,&quot;balance&quot;:250.0}]&#10;&#10;    $[1] | not equal | match failed for name: &apos;balance&apos; (MAP:MAP)&#10;    {&quot;id&quot;:14898,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:-448.0}&#10;    {&quot;id&quot;:14898,&quot;customerId&quot;:13211,&quot;type&quot;:&quot;CHECKING&quot;,&quot;balance&quot;:90.0}&#10;&#10;      $[1].balance | not equal (NUMBER:NUMBER)&#10;      -448.0&#10;      90.0&#10;&#10;classpath:org/udea/parabank/GetAccounts.feature:13" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-match failed: EQUALS
-  $ | not equal | array match failed at index 1 (LIST:LIST)
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
-
-    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
-
-      $[1].balance | not equal (NUMBER:NUMBER)
-      -448.0
-      90.0
-
-classpath:org/udea/parabank/GetAccounts.feature:13
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[21:53:52.171 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:52.180 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:52.185 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:52.244 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.503">
+    <system-out><![CDATA[22:23:25.392 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:25.412 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:25.418 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:25.463 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -388,184 +100,26 @@ classpath:org/udea/parabank/GetAccounts.feature:13
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:52.508 [main] DEBUG com.intuit.karate - response time in milliseconds: 264
+22:23:25.919 [main] DEBUG com.intuit.karate - response time in milliseconds: 455
 1 < 200
-1 < Date: Thu, 13 Nov 2025 02:53:48 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:22 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb1bbd557494-MIA
-[{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.50},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.00},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.00},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.00},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.00}]
+1 < CF-RAY: 99db266579f8a4dc-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:52.516 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:13
-And match response ==
-"""
-[
-  {
-    "id": 14787,
-    "customerId": #(customerId),
-    "type": "CHECKING",
-    "balance": 265.50
-  },
-  {
-    "id": 14898,
-    "customerId": #(customerId),
-    "type": "CHECKING",
-    "balance": 90.00
-  },
-  {
-    "id": 15009,
-    "customerId": #(customerId),
-    "type": "SAVINGS",
-    "balance": 100.00
-  },
-  {
-    "id": 15120,
-    "customerId": #(customerId),
-    "type": "LOAN",
-    "balance": 50.00
-  },
-  {
-    "id": 15231,
-    "customerId": #(customerId),
-    "type": "LOAN",
-    "balance": 250.00
-  }
-]
-"""
-match failed: EQUALS
-  $ | not equal | array match failed at index 1 (LIST:LIST)
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
-
-    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
-
-      $[1].balance | not equal (NUMBER:NUMBER)
-      -448.0
-      90.0
-
-classpath:org/udea/parabank/GetAccounts.feature:13
 ]]></system-out>
   </testcase>
-  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.451">
-    <failure message="status code was: 400, expected: 200, response time in milliseconds: 413, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: &#10;Could not find customer #13211&#10;classpath:org/udea/parabank/GetAccounts.feature:12" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 413, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[21:53:53.635 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:53.658 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:53.664 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:53.700 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.477">
+    <system-out><![CDATA[22:23:27.027 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:27.036 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:27.044 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:27.068 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -573,139 +127,26 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:54.117 [main] DEBUG com.intuit.karate - response time in milliseconds: 413
-1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:50 GMT
-1 < Content-Type: text/plain;charset=UTF-8
-1 < Content-Length: 30
+22:23:27.518 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 200
+1 < Date: Thu, 13 Nov 2025 03:23:23 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb24db68efa6-MIA
-Could not find customer #13211
+1 < CF-RAY: 99db266f3cfde6c4-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:54.118 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:12
-Then status 200
-status code was: 400, expected: 200, response time in milliseconds: 413, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
 ]]></system-out>
   </testcase>
-  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.354">
-    <failure message="status code was: 400, expected: 200, response time in milliseconds: 309, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: &#10;Could not find customer #13211&#10;classpath:org/udea/parabank/GetAccounts.feature:12" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 309, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[21:53:54.804 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:54.833 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:54.841 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:54.882 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.479">
+    <system-out><![CDATA[22:23:28.307 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:28.314 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:28.320 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:28.342 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -713,139 +154,26 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:55.200 [main] DEBUG com.intuit.karate - response time in milliseconds: 309
-1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:51 GMT
-1 < Content-Type: text/plain;charset=UTF-8
-1 < Content-Length: 30
+22:23:28.794 [main] DEBUG com.intuit.karate - response time in milliseconds: 450
+1 < 200
+1 < Date: Thu, 13 Nov 2025 03:23:24 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb2c78cf5c71-MIA
-Could not find customer #13211
+1 < CF-RAY: 99db26777c9eed32-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:55.202 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:12
-Then status 200
-status code was: 400, expected: 200, response time in milliseconds: 309, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
 ]]></system-out>
   </testcase>
-  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.463">
-    <failure message="status code was: 400, expected: 200, response time in milliseconds: 437, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: &#10;Could not find customer #13211&#10;classpath:org/udea/parabank/GetAccounts.feature:12" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 400, expected: 200, response time in milliseconds: 437, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
-	at org.junit.jupiter.api.Assertions.fail(Assertions.java:117)
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$0(DynamicTestTestDescriptor.java:52)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
-	at org.junit.jupiter.api.extension.InvocationInterceptor.interceptDynamicTest(InvocationInterceptor.java:161)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.lambda$execute$1(DynamicTestTestDescriptor.java:58)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptorCall.lambda$ofVoid$0(InvocationInterceptorChain.java:78)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
-	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:57)
-	at org.junit.jupiter.engine.descriptor.DynamicTestTestDescriptor.execute(DynamicTestTestDescriptor.java:31)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:541)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:65)
-	at org.junit.jupiter.engine.descriptor.DynamicContainerTestDescriptor.execute(DynamicContainerTestDescriptor.java:33)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:212)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:192)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.lambda$invokeTestMethod$1(TestFactoryTestDescriptor.java:106)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.jupiter.engine.descriptor.TestFactoryTestDescriptor.invokeTestMethod(TestFactoryTestDescriptor.java:93)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:131)
-	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:65)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:75)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-]]></failure>
-    <system-out><![CDATA[21:53:56.145 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
-21:53:56.156 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
-21:53:56.160 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-21:53:56.186 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts
+  <testcase name="[1:9] Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.457">
+    <system-out><![CDATA[22:23:29.502 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': classpath:org/udea/parabank/GetAccounts.feature
+22:23:29.614 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': prod
+22:23:29.664 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:29.711 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/12212/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
 1 > Connection: Keep-Alive
@@ -853,27 +181,22 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:56.626 [main] DEBUG com.intuit.karate - response time in milliseconds: 437
-1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:52 GMT
-1 < Content-Type: text/plain;charset=UTF-8
-1 < Content-Length: 30
+22:23:30.126 [main] DEBUG com.intuit.karate - response time in milliseconds: 415
+1 < 200
+1 < Date: Thu, 13 Nov 2025 03:23:26 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb3469f05154-MIA
-Could not find customer #13211
+1 < CF-RAY: 99db267fcb54a54b-MIA
+[{"id":12345,"customerId":12212,"type":"CHECKING","balance":9674015.00},{"id":12456,"customerId":12212,"type":"CHECKING","balance":-452.00},{"id":12567,"customerId":12212,"type":"CHECKING","balance":101.00},{"id":12678,"customerId":12212,"type":"SAVINGS","balance":0.00},{"id":12789,"customerId":12212,"type":"CHECKING","balance":0.00},{"id":12900,"customerId":12212,"type":"CHECKING","balance":-210.00},{"id":13011,"customerId":12212,"type":"CHECKING","balance":-150.00},{"id":13122,"customerId":12212,"type":"CHECKING","balance":1000.00},{"id":13233,"customerId":12212,"type":"CHECKING","balance":100.00},{"id":13344,"customerId":12212,"type":"SAVINGS","balance":-999618.90},{"id":13566,"customerId":12212,"type":"LOAN","balance":5.00},{"id":13677,"customerId":12212,"type":"LOAN","balance":10.00},{"id":13899,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14010,"customerId":12212,"type":"LOAN","balance":21.00},{"id":14232,"customerId":12212,"type":"LOAN","balance":12.00},{"id":14343,"customerId":12212,"type":"LOAN","balance":16.00},{"id":54321,"customerId":12212,"type":"CHECKING","balance":1351.12}]
 
-21:53:56.626 [main] ERROR com.intuit.karate - classpath:org/udea/parabank/GetAccounts.feature:12
-Then status 200
-status code was: 400, expected: 200, response time in milliseconds: 437, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
 ]]></system-out>
   </testcase>
-  <testcase name="[2:49] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="2.454">
-    <system-out><![CDATA[21:53:49.776 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[2:23] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="2.079">
+    <system-out><![CDATA[22:23:23.336 [main] DEBUG com.intuit.karate - request:
 1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
@@ -882,45 +205,29 @@ classpath:org/udea/parabank/GetAccounts.feature:12
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:50.118 [main] DEBUG com.intuit.karate - response time in milliseconds: 342
+22:23:23.627 [main] DEBUG com.intuit.karate - response time in milliseconds: 288
 1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:46 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:19 GMT
 1 < Content-Type: text/plain;charset=UTF-8
 1 < Content-Length: 31
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb0caff59ad2-MIA
+1 < CF-RAY: 99db26580ac08182-MIA
 Could not find customer #999990
 
 ---------------------------------------------------------
 feature: classpath:org/udea/parabank/GetAccounts.feature
-scenarios:  2 | passed:  1 | failed:  1 | time: 1,9124
+scenarios:  2 | passed:  2 | failed:  0 | time: 1,6098
 ---------------------------------------------------------
 
 Karate version: 1.3.1 | env: prod
 ======================================================
-elapsed:   6,00 | threads:    1 | thread time: 1,91 
-features:     1 | skipped:    0 | efficiency: 0,32
-scenarios:    2 | passed:     1 | failed: 1
+elapsed:   5,34 | threads:    1 | thread time: 1,61 
+features:     1 | skipped:    0 | efficiency: 0,30
+scenarios:    2 | passed:     2 | failed: 0
 ======================================================
->>> failed features:
-match failed: EQUALS
-  $ | not equal | array match failed at index 1 (LIST:LIST)
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
-
-    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
-
-      $[1].balance | not equal (NUMBER:NUMBER)
-      -448.0
-      90.0
-
-classpath:org/udea/parabank/GetAccounts.feature:13
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
 file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
@@ -928,8 +235,8 @@ file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20EN
 
 ]]></system-out>
   </testcase>
-  <testcase name="[2:49] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="1.11">
-    <system-out><![CDATA[21:53:52.534 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[2:23] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.997">
+    <system-out><![CDATA[22:23:25.957 [main] DEBUG com.intuit.karate - request:
 1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
@@ -938,45 +245,29 @@ file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20EN
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:52.833 [main] DEBUG com.intuit.karate - response time in milliseconds: 298
+22:23:26.482 [main] DEBUG com.intuit.karate - response time in milliseconds: 525
 1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:49 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:22 GMT
 1 < Content-Type: text/plain;charset=UTF-8
 1 < Content-Length: 31
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb1db8920d84-MIA
+1 < CF-RAY: 99db2668af40b1ba-MIA
 Could not find customer #999990
 
 ---------------------------------------------------------
 feature: classpath:org/udea/parabank/GetAccounts.feature
-scenarios:  2 | passed:  1 | failed:  1 | time: 0,5901
+scenarios:  2 | passed:  2 | failed:  0 | time: 1,0171
 ---------------------------------------------------------
 
 Karate version: 1.3.1 | env: prod
 ======================================================
-elapsed:   0,92 | threads:    1 | thread time: 0,59 
-features:     1 | skipped:    0 | efficiency: 0,64
-scenarios:    2 | passed:     1 | failed: 1
+elapsed:   1,36 | threads:    1 | thread time: 1,02 
+features:     1 | skipped:    0 | efficiency: 0,75
+scenarios:    2 | passed:     2 | failed: 0
 ======================================================
->>> failed features:
-match failed: EQUALS
-  $ | not equal | array match failed at index 1 (LIST:LIST)
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":179.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":171.0}]
-  [{"id":14787,"customerId":13211,"type":"CHECKING","balance":265.5},{"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0},{"id":15009,"customerId":13211,"type":"SAVINGS","balance":100.0},{"id":15120,"customerId":13211,"type":"LOAN","balance":50.0},{"id":15231,"customerId":13211,"type":"LOAN","balance":250.0}]
-
-    $[1] | not equal | match failed for name: 'balance' (MAP:MAP)
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":-448.0}
-    {"id":14898,"customerId":13211,"type":"CHECKING","balance":90.0}
-
-      $[1].balance | not equal (NUMBER:NUMBER)
-      -448.0
-      90.0
-
-classpath:org/udea/parabank/GetAccounts.feature:13
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
 file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
@@ -984,8 +275,8 @@ file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20EN
 
 ]]></system-out>
   </testcase>
-  <testcase name="[2:49] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.672">
-    <system-out><![CDATA[21:53:54.138 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[2:23] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.777">
+    <system-out><![CDATA[22:23:27.536 [main] DEBUG com.intuit.karate - request:
 1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
 1 > Accept: application/json
 1 > Host: parabank.parasoft.com
@@ -994,124 +285,109 @@ file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20EN
 1 > Accept-Encoding: gzip,deflate
 
 
-21:53:54.446 [main] DEBUG com.intuit.karate - response time in milliseconds: 308
+22:23:27.981 [main] DEBUG com.intuit.karate - response time in milliseconds: 444
 1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:50 GMT
+1 < Date: Thu, 13 Nov 2025 03:23:24 GMT
 1 < Content-Type: text/plain;charset=UTF-8
 1 < Content-Length: 31
 1 < Connection: keep-alive
 1 < Server: cloudflare
 1 < cf-cache-status: DYNAMIC
 1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb27da97a542-MIA
+1 < CF-RAY: 99db26724d979ac9-MIA
 Could not find customer #999990
 
 ---------------------------------------------------------
 feature: classpath:org/udea/parabank/GetAccounts.feature
-scenarios:  2 | passed:  1 | failed:  1 | time: 0,7505
+scenarios:  2 | passed:  2 | failed:  0 | time: 0,9130
 ---------------------------------------------------------
 
 Karate version: 1.3.1 | env: prod
 ======================================================
-elapsed:   1,06 | threads:    1 | thread time: 0,75 
+elapsed:   1,20 | threads:    1 | thread time: 0,91 
+features:     1 | skipped:    0 | efficiency: 0,76
+scenarios:    2 | passed:     2 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
+file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="[2:23] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.686">
+    <system-out><![CDATA[22:23:28.820 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:23:29.131 [main] DEBUG com.intuit.karate - response time in milliseconds: 309
+1 < 400
+1 < Date: Thu, 13 Nov 2025 03:23:25 GMT
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Content-Length: 31
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99db267a583f987e-MIA
+Could not find customer #999990
+
+---------------------------------------------------------
+feature: classpath:org/udea/parabank/GetAccounts.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 0,7835
+---------------------------------------------------------
+
+Karate version: 1.3.1 | env: prod
+======================================================
+elapsed:   1,02 | threads:    1 | thread time: 0,78 
+features:     1 | skipped:    0 | efficiency: 0,77
+scenarios:    2 | passed:     2 | failed: 0
+======================================================
+
+HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
+file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
+===================================================================
+
+]]></system-out>
+  </testcase>
+  <testcase name="[2:23] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.487">
+    <system-out><![CDATA[22:23:30.142 [main] DEBUG com.intuit.karate - request:
+1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
+1 > Accept: application/json
+1 > Host: parabank.parasoft.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:23:30.433 [main] DEBUG com.intuit.karate - response time in milliseconds: 291
+1 < 400
+1 < Date: Thu, 13 Nov 2025 03:23:26 GMT
+1 < Content-Type: text/plain;charset=UTF-8
+1 < Content-Length: 31
+1 < Connection: keep-alive
+1 < Server: cloudflare
+1 < cf-cache-status: DYNAMIC
+1 < X-Content-Type-Options: nosniff
+1 < CF-RAY: 99db26828cd2dfba-MIA
+Could not find customer #999990
+
+---------------------------------------------------------
+feature: classpath:org/udea/parabank/GetAccounts.feature
+scenarios:  2 | passed:  2 | failed:  0 | time: 0,7382
+---------------------------------------------------------
+
+Karate version: 1.3.1 | env: prod
+======================================================
+elapsed:   1,04 | threads:    1 | thread time: 0,74 
 features:     1 | skipped:    0 | efficiency: 0,71
-scenarios:    2 | passed:     1 | failed: 1
+scenarios:    2 | passed:     2 | failed: 0
 ======================================================
->>> failed features:
-status code was: 400, expected: 200, response time in milliseconds: 413, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-<<<
-
-HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
-file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
-===================================================================
-
-]]></system-out>
-  </testcase>
-  <testcase name="[2:49] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.937">
-    <system-out><![CDATA[21:53:55.217 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
-1 > Accept: application/json
-1 > Host: parabank.parasoft.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
-1 > Accept-Encoding: gzip,deflate
-
-
-21:53:55.543 [main] DEBUG com.intuit.karate - response time in milliseconds: 326
-1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:51 GMT
-1 < Content-Type: text/plain;charset=UTF-8
-1 < Content-Length: 31
-1 < Connection: keep-alive
-1 < Server: cloudflare
-1 < cf-cache-status: DYNAMIC
-1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb2ead18f50c-MIA
-Could not find customer #999990
-
----------------------------------------------------------
-feature: classpath:org/udea/parabank/GetAccounts.feature
-scenarios:  2 | passed:  1 | failed:  1 | time: 0,6687
----------------------------------------------------------
-
-Karate version: 1.3.1 | env: prod
-======================================================
-elapsed:   0,97 | threads:    1 | thread time: 0,67 
-features:     1 | skipped:    0 | efficiency: 0,69
-scenarios:    2 | passed:     1 | failed: 1
-======================================================
->>> failed features:
-status code was: 400, expected: 200, response time in milliseconds: 309, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-<<<
-
-HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
-file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
-===================================================================
-
-]]></system-out>
-  </testcase>
-  <testcase name="[2:49] Failed Retrieve accounts for a customer" classname="org/udea/parabank/GetAccounts" time="0.483">
-    <system-out><![CDATA[21:53:56.645 [main] DEBUG com.intuit.karate - request:
-1 > GET https://parabank.parasoft.com/parabank/services/bank/customers/999990/accounts
-1 > Accept: application/json
-1 > Host: parabank.parasoft.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
-1 > Accept-Encoding: gzip,deflate
-
-
-21:53:56.902 [main] DEBUG com.intuit.karate - response time in milliseconds: 257
-1 < 400
-1 < Date: Thu, 13 Nov 2025 02:53:53 GMT
-1 < Content-Type: text/plain;charset=UTF-8
-1 < Content-Length: 31
-1 < Connection: keep-alive
-1 < Server: cloudflare
-1 < cf-cache-status: DYNAMIC
-1 < X-Content-Type-Options: nosniff
-1 < CF-RAY: 99dafb373bf2c962-MIA
-Could not find customer #999990
-
----------------------------------------------------------
-feature: classpath:org/udea/parabank/GetAccounts.feature
-scenarios:  2 | passed:  1 | failed:  1 | time: 0,7124
----------------------------------------------------------
-
-Karate version: 1.3.1 | env: prod
-======================================================
-elapsed:   0,87 | threads:    1 | thread time: 0,71 
-features:     1 | skipped:    0 | efficiency: 0,82
-scenarios:    2 | passed:     1 | failed: 1
-======================================================
->>> failed features:
-status code was: 400, expected: 200, response time in milliseconds: 437, url: https://parabank.parasoft.com/parabank/services/bank/customers/13211/accounts, response: 
-Could not find customer #13211
-classpath:org/udea/parabank/GetAccounts.feature:12
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.3.1 | env: prod
 file:///C:/Users/ASUS/Desktop/Pruebas%20de%20software%20%5BElectiva%20LINEA%20ENFASÍS%20IN%20DE%20SOF%20Y%20SIS%20DE%20IN%5D/Entregas/Practica%205/UDEA_KaratePS/target/karate-reports/karate-summary.html
