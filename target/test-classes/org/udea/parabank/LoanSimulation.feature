@@ -7,7 +7,7 @@ Feature: Loan simulation in Parabank
     * def fakerObj = new faker()
     * def amount = fakerObj.number().numberBetween(1, 5000)
     * def amountRejected = -amount
-    * def fromAccountId = '14676'
+    * def fromAccountId = '14787'
     * def loanDuration = 12
 
   Scenario: Loan approval

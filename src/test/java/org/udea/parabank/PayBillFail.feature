@@ -3,7 +3,7 @@ Feature: Bill Payment Failed due to insufficient funds
     Background:
         * url baseUrl
         * header Accept = 'application/json'
-        * def customerId = 13322
+        * def customerId = 13211
         * def fakerObj = new faker()
 
     Scenario: Paying a bill with an amount greater than the balance

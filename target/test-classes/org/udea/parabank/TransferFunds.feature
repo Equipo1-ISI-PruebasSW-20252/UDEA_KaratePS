@@ -4,8 +4,8 @@ Feature: Transfer funds in Parabank
   Background:
     * url baseUrl
     * header Accept = 'application/json'
-    * def val_fromAccountId = '14676'
-    * def val_toAccountId = '14898'
+    * def val_fromAccountId = '15231'
+    * def val_toAccountId = '15009'
     * def fakerObj = new faker()
     * def val_amount = fakerObj.number().numberBetween(1, 200)
     * def val_fromAccountId_error = fakerObj.number().randomNumber(5, true)

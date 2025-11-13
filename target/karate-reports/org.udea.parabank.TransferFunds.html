@@ -39,18 +39,18 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">0</div>
-      <div id="nav-fail" class="bg-danger">2</div>
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">1</div>
     </div>
   </div>
   <div id="nav-env">
-    <div></div>
+    <div>prod</div>
   </div>
   <div id="nav-type">
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-11-12 09:18:57 p. m.</div>
+    <div>2025-11-12 09:40:49 p. m.</div>
   </div>
 </div>
 
@@ -58,7 +58,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <div class="nav-item failed">
             <a href="#[1:14]"><span>[1:14]</span> <span>Successful Transfer</span></a>
           </div>
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[2:23]"><span>[2:23]</span> <span>Transfer Failed</span></a>
           </div>
         </div>
@@ -85,7 +85,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
               </div>
             </div>
             <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>556</span>
+              <span>ms:</span>&nbsp;<span>358</span>
             </div>
           </div>
           <div class="step-row">
@@ -136,7 +136,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>header Accept = &#39;application/json&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -164,7 +164,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def val_fromAccountId = &#39;14676&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -220,7 +220,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def fakerObj = new faker()</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -248,7 +248,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def val_amount = fakerObj.number().numberBetween(1, 200)</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -276,7 +276,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def val_fromAccountId_error = fakerObj.number().randomNumber(5, true)</span>
       </div>
     </div>
-    <div class="time-cell passed">28</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -304,7 +304,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>def val_toAccountId_error = fakerObj.number().randomNumber(5, true)</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -332,7 +332,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;transfer&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -388,7 +388,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>param toAccountId = val_toAccountId</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -416,7 +416,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>And</span>&nbsp;<span>param amount = val_amount</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -444,7 +444,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">515</div>
+    <div class="time-cell passed">347</div>
   </div>
 
    
@@ -453,8 +453,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.19">21:18:56.726 request:
-1 &gt; POST http://parabank.parasoft.com/parabank/services/bank/transfer?amount=62&amp;fromAccountId=14676&amp;toAccountId=14898
+  <div class="preformatted" data-parent="0.19">21:40:48.329 request:
+1 &gt; POST https://parabank.parasoft.com/parabank/services/bank/transfer?amount=30&amp;fromAccountId=14676&amp;toAccountId=14898
 1 &gt; Accept: application/json
 1 &gt; Host: parabank.parasoft.com
 1 &gt; Connection: Keep-Alive
@@ -462,26 +462,17 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-21:18:56.935 request:
-2 &gt; POST http://parabank.parasoft.com/parabank/services/bank/transfer?amount=62&amp;fromAccountId=14676&amp;toAccountId=14898
-2 &gt; Accept: application/json
-2 &gt; Host: parabank.parasoft.com
-2 &gt; Connection: Keep-Alive
-2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
-2 &gt; Accept-Encoding: gzip,deflate
-
-
-21:18:57.238 response time in milliseconds: 302
-2 &lt; 405
-2 &lt; Date: Thu, 13 Nov 2025 02:18:53 GMT
-2 &lt; Content-Length: 0
-2 &lt; Connection: keep-alive
-2 &lt; Server: cloudflare
-2 &lt; allow: POST,GET,OPTIONS,HEAD
-2 &lt; cf-cache-status: DYNAMIC
-2 &lt; X-Content-Type-Options: nosniff
-2 &lt; CF-RAY: 99dac7f58870a681-MIA
-
+21:40:48.672 response time in milliseconds: 343
+1 &lt; 400
+1 &lt; Date: Thu, 13 Nov 2025 02:40:45 GMT
+1 &lt; Content-Type: text/plain;charset=UTF-8
+1 &lt; Content-Length: 48
+1 &lt; Connection: keep-alive
+1 &lt; Server: cloudflare
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; CF-RAY: 99dae7f92ea0ed21-MIA
+Could not find account number 14676 and/or 14898
 
 </div>   
 
@@ -511,10 +502,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.20">21:18:57.240 classpath:org/udea/parabank/TransferFunds.feature:20
+  <div class="preformatted" data-parent="0.20">21:40:48.674 classpath:org/udea/parabank/TransferFunds.feature:20
 Then status 200
-status code was: 405, expected: 200, response time in milliseconds: 302, url: http://parabank.parasoft.com/parabank/services/bank/transfer?amount=62&amp;fromAccountId=14676&amp;toAccountId=14898, response: 
-
+status code was: 400, expected: 200, response time in milliseconds: 343, url: https://parabank.parasoft.com/parabank/services/bank/transfer?amount=30&amp;fromAccountId=14676&amp;toAccountId=14898, response: 
+Could not find account number 14676 and/or 14898
 classpath:org/udea/parabank/TransferFunds.feature:20
 </div>   
 
@@ -563,8 +554,8 @@ classpath:org/udea/parabank/TransferFunds.feature:20
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>607</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>314</span>
             </div>
           </div>
           <div class="step-row">
@@ -699,7 +690,7 @@ classpath:org/udea/parabank/TransferFunds.feature:20
         <span>*</span>&nbsp;<span>def fakerObj = new faker()</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -839,7 +830,7 @@ classpath:org/udea/parabank/TransferFunds.feature:20
         <span>And</span>&nbsp;<span>param fromAccountId = val_fromAccountId_error</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -867,7 +858,7 @@ classpath:org/udea/parabank/TransferFunds.feature:20
         <span>And</span>&nbsp;<span>param toAccountId = val_toAccountId_error</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -923,7 +914,7 @@ classpath:org/udea/parabank/TransferFunds.feature:20
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell passed">600</div>
+    <div class="time-cell passed">308</div>
   </div>
 
    
@@ -932,8 +923,8 @@ classpath:org/udea/parabank/TransferFunds.feature:20
 
   
 
-  <div class="preformatted" data-parent="0.28">21:18:57.265 request:
-1 &gt; POST http://parabank.parasoft.com/parabank/services/bank/transfer?amount=179&amp;fromAccountId=65256&amp;toAccountId=90613
+  <div class="preformatted" data-parent="0.28">21:40:48.695 request:
+1 &gt; POST https://parabank.parasoft.com/parabank/services/bank/transfer?amount=116&amp;fromAccountId=60705&amp;toAccountId=91933
 1 &gt; Accept: application/json
 1 &gt; Host: parabank.parasoft.com
 1 &gt; Connection: Keep-Alive
@@ -941,26 +932,17 @@ classpath:org/udea/parabank/TransferFunds.feature:20
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-21:18:57.571 request:
-2 &gt; POST http://parabank.parasoft.com/parabank/services/bank/transfer?amount=179&amp;fromAccountId=65256&amp;toAccountId=90613
-2 &gt; Accept: application/json
-2 &gt; Host: parabank.parasoft.com
-2 &gt; Connection: Keep-Alive
-2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.12)
-2 &gt; Accept-Encoding: gzip,deflate
-
-
-21:18:57.861 response time in milliseconds: 289
-2 &lt; 405
-2 &lt; Date: Thu, 13 Nov 2025 02:18:54 GMT
-2 &lt; Content-Length: 0
-2 &lt; Connection: keep-alive
-2 &lt; Server: cloudflare
-2 &lt; allow: POST,GET,OPTIONS,HEAD
-2 &lt; cf-cache-status: DYNAMIC
-2 &lt; X-Content-Type-Options: nosniff
-2 &lt; CF-RAY: 99dac7f96f1b70ab-MIA
-
+21:40:48.999 response time in milliseconds: 304
+1 &lt; 400
+1 &lt; Date: Thu, 13 Nov 2025 02:40:45 GMT
+1 &lt; Content-Type: text/plain;charset=UTF-8
+1 &lt; Content-Length: 48
+1 &lt; Connection: keep-alive
+1 &lt; Server: cloudflare
+1 &lt; cf-cache-status: DYNAMIC
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; CF-RAY: 99dae7fb3f0ca543-MIA
+Could not find account number 60705 and/or 91933
 
 </div>   
 
@@ -975,13 +957,13 @@ classpath:org/udea/parabank/TransferFunds.feature:20
 
   <div class="step-row">
     <div class="step-container" id="0.29">
-      <div class="step-ref failed">29</div>
+      <div class="step-ref passed">29</div>
       
-      <div class="step-cell failed">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 400</span>
       </div>
     </div>
-    <div class="time-cell failed">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -990,12 +972,7 @@ classpath:org/udea/parabank/TransferFunds.feature:20
 
   
 
-  <div class="preformatted" data-parent="0.29">21:18:57.863 classpath:org/udea/parabank/TransferFunds.feature:29
-Then status 400
-status code was: 405, expected: 400, response time in milliseconds: 289, url: http://parabank.parasoft.com/parabank/services/bank/transfer?amount=179&amp;fromAccountId=65256&amp;toAccountId=90613, response: 
-
-classpath:org/udea/parabank/TransferFunds.feature:29
-</div>   
+     
 
   
 
@@ -1008,13 +985,13 @@ classpath:org/udea/parabank/TransferFunds.feature:29
 
   <div class="step-row">
     <div class="step-container" id="0.30">
-      <div class="step-ref skipped">30</div>
+      <div class="step-ref passed">30</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match response == &quot;Could not find account number &quot; + val_fromAccountId_error + &quot; and/or &quot; + val_toAccountId_error</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    

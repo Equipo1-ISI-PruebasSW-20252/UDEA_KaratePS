@@ -4,7 +4,7 @@ Feature: Get user accounts from Parabank
   Background:
     * url baseUrl
     * header Accept = 'application/json'
-    * def customerId = 13322
+    * def customerId = 13211
 
   Scenario: Retrieve accounts for a customer
     Given path 'customers/' + customerId + '/accounts'
@@ -14,40 +14,34 @@ Feature: Get user accounts from Parabank
     """
     [
       {
-        "id": 14676,
-        "customerId": #(customerId),
-        "type": "CHECKING",
-        "balance": 9729.50
-      },
-      {
         "id": 14787,
         "customerId": #(customerId),
         "type": "CHECKING",
-        "balance": -471.00
+        "balance": 265.50
       },
       {
         "id": 14898,
         "customerId": #(customerId),
+        "type": "CHECKING",
+        "balance": 90.00
+      },
+      {
+        "id": 15009,
+        "customerId": #(customerId),
         "type": "SAVINGS",
-        "balance": 486.00
+        "balance": 100.00
       },
       {
-        "id": 16008,
+        "id": 15120,
         "customerId": #(customerId),
         "type": "LOAN",
-        "balance": -50.00
+        "balance": 50.00
       },
       {
-        "id": 16119,
+        "id": 15231,
         "customerId": #(customerId),
         "type": "LOAN",
-        "balance": 150.00
-      },
-      {
-        "id": 16230,
-        "customerId": #(customerId),
-        "type": "LOAN",
-        "balance": 1000.00
+        "balance": 250.00
       }
     ]
     """
